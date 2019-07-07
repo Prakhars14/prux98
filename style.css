@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+}
+.navbar {
+    overflow: hidden;
+    background-color: black; 
+}
+.material-icons{
+    font-size: 50px;
+    color: white;
+
+}
+
+.navbar a {
+    font-size: 40px;
+    float: left; 
+    display: block; 
+    color: white;
+    text-align: center; 
+    padding: 50px 60px; 
+    text-decoration: none; 
+}
+.navbar a.right {
+    float: right; 
+}
+.navbar a:hover {
+    background-color: #333; 
+    color: Chartreuse; 
+}
+.row {
+display: inline-flex;
+}
+.row h1:hover{
+    color: gainsboro;
+
+}
+.side {
+flex-flow: 30%;
+padding-left: 40px;
+    background-color: Darkslategrey;
+    padding: 0px;font-weight: 700;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-size: 30px;
+color: white;
+}
+.side img{
+    height: 300px;
+    width: 300px;
+    border-radius: 150px;
+    opacity: 0.8;
+    transform: scale(1.015);
+    transition: transform 0.4s, opacity 0.4s;
+}
+.side img:hover{
+    opacity: 1.0;
+    transform: scale(0.8);
+}
+.main img {
+    height: 400px;
+    width: 400px;
+    border-radius: 200px;
+    opacity: 0.8;
+    transform: scale(1.015);
+    transition: transform 0.4s, opacity 0.4s;
+}
+.main img:hover{
+    opacity: 1.0;
+    transform: scale(0.8);}
+.main {   
+    flex-flow: 70%;
+    padding-left: 40px;
+    color: white;
+    background-color: dimgrey;
+    padding: 0px;
+    font-size: 40px;
+    object-fit: 50%;
+    font-weight: 700;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+.about{
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    align-content: center;
+    letter-spacing: 5px;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.8)),url(7.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    background-attachment: fixed;
+}
+.album{padding: 40px 40px;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: white;
+    background-color: darkslategray;
+}
+.album a:link{
+    text-decoration: none;
+    color: inherit;
+}
+footer{
+    padding: 20px 0;
+    background: linear-gradient(to right, rgba(220,36,36,1) 0%, rgba(74,86,157,1) 100%);
+    font-size: 160%;
+    font-weight: 400;
+}
+
+footer .footer-box{
+    text-align: center;
+}
+
+#heart-icon{
+    color: #b20000;
+}
